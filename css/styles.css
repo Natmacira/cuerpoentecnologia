@@ -128,7 +128,7 @@ figure {
 
 /* RESPONSIVE desktop */
 
-@media (max-width: 1920×1080) {
+@media (min-width: 908px) {
 
 	#img-header {
 		border-radius: 75%;
