@@ -28,16 +28,7 @@ for ($i=0; $i < count($array_yoga) ; $i++) {
 </head>
 
 <body>
-    <header>
-        <ul id="lista-header">
-            <li class="li-header">
-                <h1> Cuerpo & Tecnlogía</h1>
-            </li>
-            <li class="li-header"><img src="./img/undraw_social_serenity_vhix (1).svg"
-                    alt="ilustración" id="img-header">
-            </li>
-        </ul>
-    </header>
+   
     <main>
 
     <figure class="ilustración-persona"><img src="./img/undraw_workout_gcgu.svg"
