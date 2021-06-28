@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
+	
+}
+
+#lista-header {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+#img-header {
+	border-radius: 75%;
+	width: 50%;
+}
