@@ -69,21 +69,3 @@ figure {
     height: 30px;
 }
 
-/* RESPONSIVE tablet */
-
-@media (max-width: 768px) {
-
-	#img-header {
-		border-radius: 75%;
-		width: 50%;
-	}
-
-	#lista-header {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		align-items: center;
-		padding: 30px;
-		padding-left: 260px;
-	}
-}
