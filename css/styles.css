@@ -125,3 +125,22 @@ figure {
 		padding-left: 260px;
 	}
 }
+
+/* RESPONSIVE desktop */
+
+@media (max-width: 1920×1080) {
+
+	#img-header {
+		border-radius: 75%;
+		width: 50%;
+	}
+
+	#lista-header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		padding: 30px;
+		padding-left: 260px;
+	}
+}
