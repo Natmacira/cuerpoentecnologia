@@ -24,27 +24,38 @@ input {
 	background: #24fcbc;
 }
 
-#lista-header {
+header {
+padding-top: 20px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }
 
+
 @media (min-width: 768px)
 {
-#lista-header	{ 
+header	{ 
 display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: center;
 align-items: center;
+padding: 15px;
 }
+
+
 }
 
 
 #img-header {
 	border-radius: 75%;
 	width: 100%;
+}
+
+@media (min-width: 768px) {
+	#img-header {
+		width: 50%;
+	}
 }
 
 .li-header {
@@ -60,6 +71,10 @@ h1 {
 	color: #ffffff;
 	text-shadow: 2px 2px 5px #000000;
 }
+
+
+
+
 
 p#respuestaNO,
 p#respuestaSI {
