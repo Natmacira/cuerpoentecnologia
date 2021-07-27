@@ -4,14 +4,7 @@ $api_yoga   = file_get_contents('https://raw.githubusercontent.com/rebeccaestes/
 
 $array_yoga = json_decode($api_yoga, true);
 
-/*
-var_dump( $array_yoga);
-*/
-/*
-for ($i=0; $i < count($array_yoga) ; $i++) { 
-    echo $array_yoga[$i]['sanskrit_name'] . '<br>';
-    echo $array_yoga[$i]['english_name'] . '<br>';
-}*/
+
 ?>
 
 

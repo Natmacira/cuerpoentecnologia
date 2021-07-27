@@ -1,10 +1,5 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
-/* '<p> </p>' */
-
 $areaLaboral      = '';
 $cantidadHoras    = '';
 $actividadFisica  = '';
@@ -17,14 +12,14 @@ $compensar        = 'no';
 
 if (!empty($_POST['areaLaboral']) && is_string($_POST['areaLaboral'])) {
   $areaLaboral = $_POST['areaLaboral'];
-  /*  echo '<p>Trabaja en el área de: </p>' . $areaLaboral . '<br>'; */
+ 
 }
 
 /* cantidad de horas */
 
 if (!empty($_POST['cantidadHoras']) && is_numeric($_POST['cantidadHoras'])) {
   $cantidadHoras = $_POST['cantidadHoras'];
-  //  echo '<p>Cantidad de horas laborales por semana:</p>' . $cantidadHoras . '<br>';
+ 
 
 }
 
